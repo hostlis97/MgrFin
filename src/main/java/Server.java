@@ -16,8 +16,7 @@ public class Server {
                     BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()))) {
                     System.out.println("Подключен новый клиент");
                     finanse.add(in);
-                    out.println("123" + finanse.sum());
-                    System.out.println("{\"maxCategory\": " + finanse.sum());
+                    out.println("{\"maxCategory\": " + finanse.sum());
                 }
             }
 

@@ -10,7 +10,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class Finanse {
-    private List<JsonRequest> bascet = new ArrayList<>();
+    protected List<JsonRequest> bascet = new ArrayList<>();
 
     public void add(BufferedReader in) throws IOException {
         GsonBuilder builder = new GsonBuilder();
