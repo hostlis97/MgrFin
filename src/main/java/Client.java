@@ -10,7 +10,6 @@ public class Client {
             String json = "{\"title\": \"булка\", \"date\": \"2022.02.08\", \"sum\": 200}";
             out.println(json);
             System.out.println(in.readLine());
-//            System.in.read();
         } catch (UnknownHostException e) {
             throw new RuntimeException(e);
         } catch (IOException e) {
