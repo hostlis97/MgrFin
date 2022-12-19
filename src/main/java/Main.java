@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Server {
+public class Main {
     public static void main(String[] args) {
         Finanse finanse = new Finanse();
         try (ServerSocket server = new ServerSocket(ServerConfig.PORT)) {
