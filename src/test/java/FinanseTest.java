@@ -16,11 +16,11 @@ class FinanseTest {
     final String jsonRequest = "{\"title\": \"Машина\", \"date\": \"2022.02.08\", \"sum\": 100000}";
     Finanse finanse = new Finanse();
     Gson gsonTest = new Gson();
-    private Server server;
+    private Main server;
 
     @BeforeEach
     void setUp() {
-        server = Mockito.mock(Server.class);
+        server = Mockito.mock(Main.class);
     }
 
     @Test
